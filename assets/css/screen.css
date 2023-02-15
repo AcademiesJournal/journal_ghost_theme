@@ -369,7 +369,7 @@
 			auto,
 			calc((var(--container-width, 1200px) - var(--content-width, 720px)) / 2)
 		)
-		[main-start] min(var(--content-width, 920px), calc(100% - var(--gap) * 2))
+		[main-start] min(var(--content-width, 720px), calc(100% - var(--gap) * 2))
 		[main-end] minmax(
 			auto,
 			calc((var(--container-width, 1200px) - var(--content-width, 720px)) / 2)
