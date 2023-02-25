@@ -358,23 +358,28 @@
 	max-width: 920px;
 	margin-top: 1.6rem;
 	font-size: 2.8rem;
-	line-height: 1.95;
+	line-height: 1.35;
 	color: var(--color-darker-gray);
 }
 
+.gh-article-excerpt-custom {
+	max-width: 920px;
+	margin-top: 1.6rem;
+	font-size: 2.8rem;
+	line-height: 1.35;
+	color: var(--color-darker-gray);
+}
+
+.gh-article-excerpt-b {
+	max-width: 920px;
+	margin-top: 1.6rem;
+	font-size: 2.8rem;
+	line-height: 1.35;
+	color: var(--color-darker-gray);
+}
 .gh-canvas-better {
-	display: grid;
-	grid-template-columns:
-		[full-start] minmax(var(--gap), auto) [wide-start] minmax(
-			auto,
-			calc((var(--container-width, 1200px) - var(--content-width, 720px)) / 2)
-		)
-		[main-start] min(var(--content-width, 721px), calc(100% - var(--gap) * 2))
-		[main-end] minmax(
-			auto,
-			calc((var(--container-width, 1200px) - var(--content-width, 720px)) / 2)
-		)
-		[wide-end] minmax(var(--gap), auto) [full-end];
+    display: grid;
+    grid-template-columns: [full-start] minmax(var(--gap),auto) [wide-start] minmax(auto,calc((var(--container-width, 1200px) - var(--content-width, 720px))/2)) [main-start] min(var(--content-width,720px),calc(100% - var(--gap)*2)) [main-end] minmax(auto,calc((var(--container-width, 1200px) - var(--content-width, 720px))/2)) [wide-end] minmax(var(--gap),auto) [full-end];
 }
 
 .gh-article-footer {
